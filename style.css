@@ -1,3 +1,15 @@
 #root{
     color: black;
 }
+h1 {
+    color: blue;
+    font-weight: 600;
+}
+h2 {
+    color: blueviolet;
+    font-weight: 400;
+}
+h3 {
+    color: aqua;
+    font-weight: 400;
+}
