@@ -13,3 +13,19 @@ h3 {
     color: aqua;
     font-weight: 400;
 }
+.parent {
+    border-width: 1px;
+    border-color: black;
+    padding: 5px;
+}
+.child1 {
+    border-width: 1px;
+    border-color: green;
+    background-color: aqua;
+    
+}
+.child2 {
+    border-width: 1px;
+    border-color: green;
+    background-color: aqua;
+}
