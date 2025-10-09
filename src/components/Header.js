@@ -6,10 +6,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="logo-container">
-        <img
-          className="logo"
-          src= {LOGO_URL}
-        />
+        <img className="logo" src={LOGO_URL} />
       </div>
       <div className="nav-items">
         <ul>
@@ -17,9 +14,15 @@ const Header = () => {
           <li>About Us</li>
           <li>Contact Us</li>
           <li>Cart</li>
-          <button className="login" onClick={()=>{
-            btnName==="Login" ? setBtnName("Logout"):setBtnName("Login");
-          }}> {btnName}</button>
+          <button
+            className="login"
+            onClick={() => {
+              btnName === "Login" ? setBtnName("Logout") : setBtnName("Login");
+            }}
+          >
+            {" "}
+            {btnName}
+          </button>
         </ul>
       </div>
     </div>
